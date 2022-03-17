@@ -28,7 +28,7 @@ if not os.path.exists('data.csv'):
     open("data.csv","w")
 APP_ID = 15148256
 API_HASH = "4628b538d0a9129e25b39a08ddb4f4d3"
-BOT_TOKEN = "5224315973:AAEivLRoKjtsdBlQHHMdf6Dldu9sLbMZPzI"
+BOT_TOKEN = "5198262771:AAGfYTTjlGWuUPs3w_4Ise9QwBPYdzXbBgU"
 UPDATES_CHANNEL = "InducedBots"
 OWNER= [5220117273]
 PREMIUM=[5220117273]
@@ -40,7 +40,7 @@ with open("data.csv", encoding='UTF-8') as f:
     ishan=[]
     for row in rows:
         d = datetime.today() - datetime.strptime(f"{row[2]}", '%Y-%m-%d')
-        r = datetime.strptime("2021-12-01", '%Y-%m-%d') - datetime.strptime("2021-11-03", '%Y-%m-%d')
+        r = datetime.strptime("2021-12-01", '%Y-%m-%d') - datetime.strptime("2024-11-03", '%Y-%m-%d')
         if d<=r:
             PREMIUM.append(int(row[1]))
 
